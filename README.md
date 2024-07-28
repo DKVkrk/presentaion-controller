@@ -1,6 +1,6 @@
-Presentation Controller using Python, MediaPipe, and PyAutoGUI
+**Presentation Controller using Python, MediaPipe, and PyAutoGUI**
 
-Table of Contents
+**Table of Contents**
 
 Introduction
 Features
@@ -9,17 +9,18 @@ Usage
 Contributing
 License
 Acknowledgments
-Introduction
+
+**Introduction**
 
 This project is a gesture-based presentation controller using Python, MediaPipe, and PyAutoGUI. It allows you to control your presentation slides using hand gestures, making it a seamless and intuitive way to navigate through your slides.
 
-Features
+**Features**
 
 Gesture Recognition: Uses MediaPipe to detect hand gestures.
 Slide Control: Utilizes PyAutoGUI to control presentation slides (start,next, previous).
 User-Friendly: Easy to set up and use.
 
-Installation
+**Installation**
 
 Prerequisites
 Python 3.x
@@ -34,12 +35,12 @@ bash
 Copy code
 pip install -r requirements.txt
 
-Usage
+**Usage**
 
 Run the Controller Script
 
-bash
-Copy code
+**bash**
+**Copy code**
 python presentation_controller.py
 
 Start Your Presentation
@@ -48,7 +49,7 @@ Open your presentation in your preferred presentation software (e.g., PowerPoint
 Use Gestures to Control the Slides
 
 
-Contributing
+**Contributing**
 
 Contributions are welcome! Please follow these steps:
 
@@ -60,7 +61,7 @@ Create a new Pull Request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+**Acknowledgments**
 
 MediaPipe - Framework for building multimodal (e.g., video, audio, etc.) applied ML pipelines.
 PyAutoGUI - Cross-platform GUI automation Python module for human beings.
