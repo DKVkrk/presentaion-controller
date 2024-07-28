@@ -1,20 +1,20 @@
 **Presentation Controller using Python, MediaPipe, and PyAutoGUI**
 
-**.**Table of Contents
+**Table of Contents
 
-**.**Introduction
+**Introduction
 
-**.**Features
+**Features
 
-**.**Installation
+**Installation
 
-**.**Usage
+**Usage
 
-**.**Contributing
+**Contributing
 
-**.**License
+**License
 
-**.**Acknowledgments
+**Acknowledgments
 
 **Introduction**
 
@@ -22,35 +22,35 @@ This project is a gesture-based presentation controller using Python, MediaPipe,
 
 **Features**
 
-**.**Gesture Recognition: Uses MediaPipe to detect hand gestures.
+**Gesture Recognition: Uses MediaPipe to detect hand gestures.
 
-**.**Slide Control: Utilizes PyAutoGUI to control presentation slides (open,next, previous).
+**Slide Control: Utilizes PyAutoGUI to control presentation slides (open,next, previous).
 
-**.**User-Friendly: Easy to set up and use.
+**User-Friendly: Easy to set up and use.
 
 **Installation**
 
 **Prerequisites**
 
-**.**Python 3.x
+**Python 3.x
 
-**.**pip (Python package installer)
+**pip (Python package installer)
 
-**.**Clone the Repository
+**Clone the Repository
 
-**.**bash
+**bash
 
-**.**Copy code
+**Copy code
 
-**.**git clone https://github.com/your-username/presentation-controller.git
+**git clone https://github.com/your-username/presentation-controller.git
 
-**.**cd presentation-controller
+**cd presentation-controller
 
-**.**Install Required Libraries
+**Install Required Libraries
 
-**.**bash
+**bash
 
-**.**Copy code
+**Copy code
 
 pip install -r requirements.txt
 
@@ -58,35 +58,37 @@ pip install -r requirements.txt
 
 **Run the Controller Script**
 
-**.**python presentation_controller.py
+**python presentation_controller.py
 
-**.**Start Your Presentation
+**Start Your Presentation
 
-**.**Open your presentation in your preferred presentation software (e.g., PowerPoint).
+**Open your presentation in your preferred presentation software (e.g., PowerPoint).
 
-**.**Use Gestures to Control the Slides(index up , close hand ,open hand)
+**Use Gestures to Control the Slides(index up , close hand ,open hand)
 
 **Contributing**
 
-**.**Contributions are welcome! Please follow these steps:
+**Contributions are welcome! Please follow these steps:
 
-**.**Fork the repository.
+**Fork the repository.
 
-**.**Create a new branch (git checkout -b feature/your-feature-name).
+**Create a new branch (git checkout -b feature/your-feature-name).
 
-**.**Commit your changes (git commit -am 'Add some feature').
+**Commit your changes (git commit -am 'Add some feature').
 
-**.**Push to the branch (git push origin feature/your-feature-name).
+**Push to the branch (git push origin feature/your-feature-name).
 
-**.**Create a new Pull Request.
+**Create a new Pull Request.
 
 **License**
 
-**.**This project is licensed under the MIT License - see the LICENSE file for details.
+**This project is licensed under the MIT License - see the LICENSE file for details.
 
 **Acknowledgments**
-**.**MediaPipe - Framework for building multimodal (e.g., video, audio, etc.) applied ML pipelines.
-**.**PyAutoGUI - Cross-platform GUI automation Python module for human beings.
+
+**MediaPipe - Framework for building multimodal (e.g., video, audio, etc.) applied ML pipelines.
+
+**PyAutoGUI - Cross-platform GUI automation Python module for human beings.
 
 
 
