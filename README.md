@@ -12,7 +12,7 @@ No need for a clicker or remote – just use your webcam and your hand! 🎥
 - ✊ **Closed Hand** → Previous Slide  
 - 🖐 **Open Hand** → Start/Stop Presentation  
 - ✌ **Index + Middle Up** → Laser Pointer (moves mouse cursor with your finger)  
-- ⏱ **Gesture Delay** – Prevents multiple accidental detections  
+
 
 ---
 
