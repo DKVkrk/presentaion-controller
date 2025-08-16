@@ -28,7 +28,6 @@ No need for a clicker or remote – just use your webcam and your hand! 🎥
 
 ## 📂 Project Structure  
 
-```bash
 📁 gesture-presentation-controller
 │── app.py              # Main script (gesture detection + actions)
 │── requirements.txt    # Dependencies
