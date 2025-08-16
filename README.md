@@ -1,97 +1,84 @@
-**Presentation Controller using Python, MediaPipe, and PyAutoGUI**
+# 🖐️ Gesture-Based Presentation Controller  
 
-**Table of Contents
+A **Python-based presentation controller** using **OpenCV, Mediapipe, and PyAutoGUI** that allows you to control slides and use a **laser pointer** with **hand gestures**.  
 
-**Introduction
+No need for a clicker or remote – just use your webcam and your hand! 🎥  
 
-**Features
+---
 
-**Installation
+## 🚀 Features  
 
-**Usage
+- 👉 **Index Finger Up** → Next Slide  
+- ✊ **Closed Hand** → Previous Slide  
+- 🖐 **Open Hand** → Start/Stop Presentation  
+- ✌ **Index + Middle Up** → Laser Pointer (moves mouse cursor with your finger)  
+- ⏱ **Gesture Delay** – Prevents multiple accidental detections  
 
-**Contributing
+---
 
-**License
+## ⚙️ Tech Stack  
 
-**Acknowledgments
+- **Python 3.8+**  
+- **OpenCV** – Webcam access & frame processing  
+- **Mediapipe** – Hand tracking & landmark detection  
+- **PyAutoGUI** – Keyboard/mouse automation  
+- **NumPy** – Coordinate mapping  
 
-**Introduction**
+---
 
-This project is a gesture-based presentation controller using Python, MediaPipe, and PyAutoGUI. It allows you to control your presentation slides using hand gestures, making it a seamless and intuitive way to navigate through your slides.
+## 📂 Project Structure  
 
-**Features**
+```bash
+📁 gesture-presentation-controller
+│── app.py              # Main script (gesture detection + actions)
+│── requirements.txt    # Dependencies
+│── README.md           # Documentation
 
-**Gesture Recognition: Uses MediaPipe to detect hand gestures.
+---
 
-**Slide Control: Utilizes PyAutoGUI to control presentation slides (open,next, previous).
 
-**User-Friendly: Easy to set up and use.
+## 📦 Installation
 
-**Installation**
+Clone the repository
+git clone https://github.com/your-username/gesture-presentation-controller.git
+cd gesture-presentation-controller
 
-**Prerequisites**
 
-**Python 3.x
+Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate      # Linux/Mac
+venv\Scripts\activate         # Windows
 
-**pip (Python package installer)
 
-**Clone the Repository
-
-**bash
-
-**Copy code
-
-**git clone https://github.com/your-username/presentation-controller.git
-
-**cd presentation-controller
-
-**Install Required Libraries
-
-**bash
-
-**Copy code
-
+Install dependencies
 pip install -r requirements.txt
 
-**Usage**
+---
 
-**Run the Controller Script**
+## ▶️ Usage
 
-**python presentation_controller.py
+Run the app:
+python app.py
+Perform gestures in front of your webcam:
+👉 Index Finger Up → Next Slide (Right Arrow)
+✊ Closed Hand → Previous Slide (Left Arrow)
+🖐 Open Hand → Start (F5) / Stop (ESC) Presentation
+✌ Laser Pointer → Move mouse with your index finger
+Press q to exit the program.
 
-**Start Your Presentation
+---
 
-**Open your presentation in your preferred presentation software (e.g., PowerPoint).
+## 🙌 Acknowledgements
+Mediapipe – Hand Tracking
+OpenCV – Computer Vision
+PyAutoGUI – Automation
 
-**Use Gestures to Control the Slides(index up , close hand ,open hand)
+---
 
-**Contributing**
-
-**Contributions are welcome! Please follow these steps:
-
-**Fork the repository.
-
-**Create a new branch (git checkout -b feature/your-feature-name).
-
-**Commit your changes (git commit -am 'Add some feature').
-
-**Push to the branch (git push origin feature/your-feature-name).
-
-**Create a new Pull Request.
-
-**License**
-
-**This project is licensed under the MIT License - see the LICENSE file for details.
-
-**Acknowledgments**
-
-**MediaPipe - Framework for building multimodal (e.g., video, audio, etc.) applied ML pipelines.
-
-**PyAutoGUI - Cross-platform GUI automation Python module for human beings.
-
-
-
-
+## 🔮 Future Enhancements
+🎤 Voice commands for hybrid control
+🖱️ Add custom gestures (e.g., thumbs up → start presentation)
+📊 GUI for selecting gestures & actions
+🌐 Convert into a web-based gesture controller
 
 
